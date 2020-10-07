@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+
+<!-- idioma de la página -->
+<html lang="en">
+
+<head>
+    <!-- configuración de metadatos de la página -->
+    <meta charset="UTF-8">
+    <!-- codificación de unicode -->
+    <meta name="author" content="Oriol Canades">
+    <!-- autoría de la web -->
+    <meta name="description" content="HTML5 demo web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- vista de la página web -->
+    <title>HTML5 Hello World</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <br>
+        <h1>HTML5 | Hello World Doc</h1>
+        <br>
+    </header>
+
+    <nav>
+        <hr>
+        <table style="width:100%">
+            <tr>
+                <th style="text-align: center;"><a href="#title">Title Format</a></th>
+                <th style="text-align: center;"><a href="#lists">List Types</a></th>
+                <th style="text-align: center;"><a href="#text">Text Format</a></th>
+                <th style="text-align: center;"><a href="#multimedia">Multimedia</a></th>
+                <th style="text-align: center;"><a href="#hiperlink">Hiperlink</a></th>
+                <th style="text-align: center;"><a href="#tabla">Table</a></th>
+                <th style="text-align: center;"><a href="#forms">Forms</a></th>
+                <th style="text-align: center;"><a href="#interactive">Interactive Content</a></th>
+            </tr>
+        </table>
+        <hr>
+    </nav>
+
+    <article>
+
+        <section id="title">
+            <h1>Title format</h1>
+            <br>
+            <h1>title h1 demo</h1>
+            <h2>title h2 demo</h2>
+            <h3>title h3 demo</h3>
+            <h4>title h4 demo</h4>
+            <h5>title h5 demo</h5>
+            <h6>title h6 demo</h6>
+            <br>
+            <center><a href="header"> ^ </a></center>
+        </section>
+
+        <hr>
+
+        <div id="lists">
+            <h1>List types</h1>
+            <br>
+            <ul>
+                <li>list item 1 </li>
+                <li><i>list item 2</i> (i) </li>
+            </ul>
+            <br>
+            <ol>
+                <li><b>list item 3</b> (b) </li>
+                <li><u>list item 4</u> (u) </li>
+                <li><s>list item 5</s> (s) </li>
+            </ol>
+            <br>
+            <ol type="A">
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            <br>
+            <ol type="I">
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            <br>
+            <ol start="38">
+                <li>item</li>
+                <ul>
+                    <li>subitem list</li>
+                    <li>subitem list</li>
+                </ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            <br>
+            <center><a href="#header"> ^ </a></center>
+        </div>
+
+        <hr>
+
+        <div id="text">
+            <h1>Text format</h1>
+            <br>
+            <p> paragraph </p>
+            <br>
+            <dl>
+                <dt><i>Definition</i></dt>
+                <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam delectus sed provident architecto labore quidem dolorum rerum, illum necessitatibus beatae, sunt odit id ducimus veniam, iste debitis cum. Mollitia, sint.</dd>
+            </dl>
+            <br>
+            <p><mark> Text 2</mark> (mark) </p>
+            <br>
+            <p>5<sup>2</sup> (sup)</p>
+            <p>H<sub>2</sub>O (sub)</p>
+            <br>
+            <pre>
+            Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. 
+            Dolores omnis, illum dolorem praesentium 
+                commodi at odio voluptatibus ullam 
+                    asperiores repellat molestias ut 
+            laboriosam. Deleniti, sunt nemo. 
+            
+                Sapiente vel fugiat veniam!
+        </pre>
+            <br>
+            <center><a href="#header"> ^ </a></center>
+        </div>
+
+        <p id="multimedia">
+
+            <h1>Multimeia</h1>
+            <br>
+
+            <div id="image">
+                <!-- Images: jpeg, gif, png, apng, svg, bmp, bmp ico,and png ico -->
+                <h4>Images</h4>
+                <img src="default-image.jpg" alt="default-image" width="300" height="200" />
+            </div>
+            <br>
+
+            <div id="audio">
+                <!-- Audio: MP3, WAV, Ogg -->
+                <h4>Audio</h4>
+                <audio controls><source src="default-audio.mp3" type="audio/mp3"></audio>
+            </div>
+
+            <div id="video">
+                <!-- Video: mp4, WebM, Ogg-->
+                <h4>Video</h4>
+                <video width="300" height="200" controls muted><!-- autoplay, loop --><source src="default-video.mp4" type="video/mp4"></video>
+            </div>
+            <br>
+
+            <div id="youtubeVideo">
+                <h4>Youtube Video</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Z35DshTM_kI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br>
+
+            <center><a href="#header"> ^ </a></center>
+            </div>
+
+            <hr>
+
+            <div id="hiperlink">
+                <h1>Hipervínculos</h1>
+                <br>
+                <!-- 
+            La etiqueta <a> crear un enlacea a otra página o archivo     
+                href        dirección enlace
+                hreflang    idioma documento
+                download    se descargar al hacer clic en el enlace
+                rel         relación objeto destion-objeto enlace
+                target      especifica dónde abrir la url
+        -->
+                <p>
+                    <a href="https://www.google.com/">visita google</a>
+                </p>
+                <br>
+                <p>
+                    <a href="https://www.google.com/" target="_blank">visita google (en una pestaña nueva)</a>
+                    <!-- _top -->
+                </p>
+                <br>
+                <p>
+                    <a href="https://www.google.com/"><img src="default-image.jpg" width="100" height="100"></a>
+                </p>
+                <br>
+                <p>
+                    <a href="mailto:ocanades@gmail.com?subject=info&body=test">contacto</a>
+                </p>
+                <br>
+                <p>
+                    <a href="https://drive.google.com/file/d/1DCgqBzP9ExR63kNok41Ip_H_at6dlVPO/view?usp=sharing" download="demo.pdf">
+                        <img src="pdf-logo.png" width="50" height="50">
+                    </a>
+                </p>
+                <br>
+                <center><a href="#header"> ^ </a></center>
+            </div>
+
+            <hr>
+
+            <div id="tabla">
+                <h1>Tablas</h1>
+                <br>
+                <!--
+            Tablas:
+                <table>     crea tabla
+                <tr>        crea fila
+                <th>        define celda encabezado tabla
+                <td>        crea celda
+                <caption>   define título tabla
+                <colgroup>  especifica grupo de una o más columnas para aplicar formato
+                <col>       propiedades columna de las columnas del colgroup
+                <thead>     encabezado tabla
+                <tbody>     cuerpo tabla
+                <tfoot>     pie tabla
+        -->
+
+                <table border="1" style="width:50%">
+                    <caption>demo table - border 1</caption>
+
+                    <colgroup>
+                        <col style="width:20%" />
+                        <col style="width:20%" />
+                        <col style="width:20%" />
+                        <col style="width:40%" />
+                    </colgroup>
+
+                    <thead>
+                        <tr>
+                            <th>items</th>
+                            <th>price</th>
+                            <th>quantity</th>
+                            <th>title 4</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>test 1</td>
+                            <td style="text-align: center;">25,00</td>
+                            <td>80</td>
+                            <td rowspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td>test 2</td>
+                            <td>84,00</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>test 3</td>
+                            <td>15,90</td>
+                            <td>26</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>110</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+                <br>
+                <center><a href="#header"> ^ </a></center>
+            </div>
+
+            <hr>
+
+            <div class="container-fluid" id="forms">
+                <h3>Formularios</h3>
+                <hr>
+                <br>
+                <!---->
+
+                <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" size="30" placeholder="name" required/>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" size="30" placeholder="insert your email" required/>
+                    </p>
+
+                    <p>
+                        <label for="name">Password:</label>
+                        <input type="password" id="password" name="password" size="30" maxlength="10" placeholder="password" required/>
+                    </p>
+
+                    <p>
+                        <label for="url">URL:</label>
+                        <input type="url" id="url" name="url" />
+                    </p>
+
+                    <p>
+                        <label for="number">Number:</label>
+                        <input type="number" id="number" name="number" min="1" max="100" step="2" />
+                    </p>
+
+                    <p>
+                        <label for="date">Date:</label>
+                        <input type="datetime-local" id="date" name="date" />
+                    </p>
+
+                    <p>
+                        <input type="range">
+                        <input type="color">
+                    </p>
+
+                    <p>
+                        <h4>Experience:</h4>
+                        <input type="radio" name="exp" value="entry level" /> Entry level
+                        <input type="radio" name="exp" value="junior" checked/> Junior
+                        <input type="radio" name="exp" value="senior" /> Senior
+                    </p>
+
+                    <p>
+                        <h3>Technologies</h3>
+                        <input type="checkbox" name="tech">Java
+                        <input type="checkbox" name="tech">JavaScript
+                        <input type="checkbox" name="tech">HTML
+                        <input type="checkbox" name="tech">CSS
+                        <input type="checkbox" name="tech">Bootstrap<br>
+                        <input type="checkbox" name="tech">Spring Framework
+                        <input type="checkbox" name="tech">Hibernate
+                        <input type="checkbox" name="tech">Docker
+                        <input type="checkbox" name="tech">Azure
+                        <input type="checkbox" name="tech">Node.js<br>
+                        <input type="checkbox" name="tech">Angular
+                        <input type="checkbox" name="tech">React
+                        <input type="checkbox" name="tech">Vue
+                        <input type="checkbox" name="tech">C#
+                        <input type="checkbox" name="tech">ASP.NET<br>
+                        <input type="checkbox" name="tech">API
+                        <input type="checkbox" name="tech">REST Full
+                    </p>
+
+                    <select>
+                    <option>backend</option>
+                    <option>frontend</option>
+                    <option selected>fullstack</option>
+                    <option>devops</option>
+                    <option>security</option>
+                </select>
+
+                    <p>
+                        <h4>Notes:</h4>
+                        <label for="notes"></label>
+                        <textarea id="notes"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="file" name="archive" accept="image/*" multiple>
+                    </p>
+
+                    <p>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Clear</button>
+                    </p>
+                </form>
+
+                <!---->
+                <br>
+                <center><a href="#header"> ^ </a></center>
+            </div>
+
+            <hr>
+
+            <div id="interactive">
+                <h1>Interactive Content</h1>
+
+                <details>
+                    <summary>HTLM5</summary>
+                    1. text 1<br> 2. text 2<br> 3. text 3<br> 4. text 4<br>
+                </details>
+
+                <dialog id="dialog"> HTML5 dialog box</dialog>
+
+                <p>
+                    <button type="button" onclick="document.getElementById('dialog').open=true">Open</button>
+                    <button type="button" onclick="document.getElementById('dialog').open=false">Close</button>
+                </p>
+                <br>
+
+                <h4>Embeded Content</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11952.951004582641!2d2.1463593853757232!3d41.499122368063205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bde21863370b%3A0xe444d8f66cca68ca!2sRipollet%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1598632298265!5m2!1ses!2ses"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            <p>Unsupported browser</p>
+            </iframe>
+                <br>
+                <center><a href="header"> ^ </a></center>
+            </div>
+
+            <hr>
+
+            <div id="semanthic">
+                <h1>HTML5 Semanthics</h1>
+                <ul>
+                    <li>header</li>
+                    <p>agrupa introducción del contenido</p>
+                    <li>nav</li>
+                    <p>agrupa navegación del sitio - menú principial-</p>
+                    <li>article</li>
+                    <p>indica el contenido</p>
+                    <li>section</li>
+                    <p>agrupa por secciones y subsecciones</p>
+                    <li>aside</li>
+                    <p>contenido que está fuera del tema princial -anuncios-</p>
+                    <li>footer</li>
+                    <p>pie de página</p>
+                </ul>
+            </div>
+    </article>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
