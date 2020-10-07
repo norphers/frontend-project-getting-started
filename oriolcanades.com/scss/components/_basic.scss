@@ -7,8 +7,14 @@ body {
     font-weight: 300;
 }
 
-h1 {font-size: 5vw;}
-h2 {font-size: 4vh;}
+h1 {
+    font-size: 5vw;
+    margin-top: 80px}
+h2 {
+    font-size: 4vh;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 h3 {font-size: 3vmin;}
 
 p {font-size: 2.25vmin;}
@@ -24,4 +30,18 @@ p {font-size: 2.25vmin;}
     text-align: center;
     margin-top: 20px;
     font-weight: 500;
+}
+
+.btn .btn-light {
+    background-color: #7d8d21 !important;;
+}
+
+.line-separator {
+    border-top: 1px #7d8d21;
+    height:1px; 
+    max-width:200; 
+    padding: 0;
+    margin: 80px auto 0 auto;
+    color:#7d8d21;
+    background-color:#7d8d21;
 }
