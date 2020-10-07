@@ -7,10 +7,13 @@ body {
   font-weight: 300; }
 
 h1 {
-  font-size: 5vw; }
+  font-size: 5vw;
+  margin-top: 80px; }
 
 h2 {
-  font-size: 4vh; }
+  font-size: 4vh;
+  margin-top: 80px;
+  margin-bottom: 80px; }
 
 h3 {
   font-size: 3vmin; }
@@ -29,6 +32,18 @@ p {
   text-align: center;
   margin-top: 20px;
   font-weight: 500; }
+
+.btn .btn-light {
+  background-color: #7d8d21 !important; }
+
+.line-separator {
+  border-top: 1px #7d8d21;
+  height: 1px;
+  max-width: 200;
+  padding: 0;
+  margin: 80px auto 0 auto;
+  color: #7d8d21;
+  background-color: #7d8d21; }
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -98,11 +113,8 @@ nav.stroke ul li a:hover:after {
   margin-left: auto;
   margin-right: auto; }
 
-.separator {
-  height: 1px;
-  border-width: 0;
-  color: #7d8d21;
-  background-color: #7d8d21; }
+.welcome-info {
+  margin-top: 40px; }
 
 .resume-item {
   padding: 30px;
@@ -138,3 +150,7 @@ nav.stroke ul li a:hover:after {
 
 .skill {
   font-size: 1vmin; }
+
+.container-register{
+  margin-top: 30px;
+}
