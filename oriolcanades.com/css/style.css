@@ -1,0 +1,140 @@
+body {
+  background: #ffffff;
+  color: #515C5D;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 300; }
+
+h1 {
+  font-size: 5vw; }
+
+h2 {
+  font-size: 4vh; }
+
+h3 {
+  font-size: 3vmin; }
+
+p {
+  font-size: 2.25vmin; }
+
+.site-section {
+  font-family: 'Montserrat', sans-serif;
+  color: #515C5D;
+  padding: 5em 0; }
+
+.section-header {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500; }
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeIn {
+  animation-name: fadeIn; }
+
+nav {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: #515C5D;
+  list-style: none;
+  padding: 20px; }
+
+.navbar-nav li {
+  display: inline-block; }
+
+.navbar-nav li a {
+  display: block;
+  text-decoration: none;
+  margin: 0 25px; }
+
+nav.stroke ul li a {
+  position: relative; }
+
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #7d8d21;
+  height: 1px; }
+
+nav.stroke ul li a:hover:after {
+  width: 100%; }
+
+.welcome-section {
+  text-align: center; }
+
+.circular-square {
+  border-radius: 50%;
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.separator {
+  height: 1px;
+  border-width: 0;
+  color: #7d8d21;
+  background-color: #7d8d21; }
+
+.resume-item {
+  padding: 30px;
+  background: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  color: #515d51;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  border: 4px solid transparent;
+  border-radius: 7px; }
+
+.resume-item .date {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #515d51; }
+
+.resume-item .school {
+  display: block;
+  font-size: 16px; }
+
+.resume-item h3 {
+  color: #7d8d21;
+  font-size: 20px; }
+
+.resume-item .school {
+  color: #515d51; }
+
+.resume-item *:last-child {
+  margin-bottom: 0; }
+
+.skill {
+  font-size: 1vmin; }

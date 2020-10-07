@@ -1,0 +1,38 @@
+.site-hero {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; 
+}
+.site-hero, .site-hero .row {
+    height: 65vh;
+    min-height: 400px; 
+}
+
+
+.filters {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25vmin;
+    text-align: center;
+}
+.filters ul {
+    padding: 0;
+    margin: 0 0 30px 0; 
+}
+.filters ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+.filters ul li:hover {
+    color: #7d8d21; 
+}
+.filters ul li.active {
+    color: #7d8d21; 
+}
